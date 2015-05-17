@@ -18,6 +18,7 @@ import com.actionbarsherlock.app.SherlockListActivity;
 import android.annotation.TargetApi;
 import android.graphics.Color;
 import android.os.Build;
+import android.os.Looper;
 import android.provider.Settings;
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -52,6 +53,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.View.OnClickListener;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout.LayoutParams;
@@ -957,8 +959,14 @@ public class Q2Android extends SherlockListActivity {
 
             //answerWebView.loadUrl("file:///android_asset/MathJax/index.html");
             //answerWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='';",null);
-            answerWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(cont)+"';",null);
-            answerWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                answerWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(cont)+"';",null);
+                answerWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
+            } else {
+                answerWebView.loadUrl("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(cont)+"';");
+                answerWebView.loadUrl("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);");
+            }
+
 
 
 			questionTitle.setText(title);
@@ -1189,6 +1197,13 @@ public class Q2Android extends SherlockListActivity {
                         public void onPageFinished(WebView view, String url) {
                             super.onPageFinished(view, url);
                             Log.d("unnseeerrr",responce);
+                            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                                answeredWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';",null);
+                                answeredWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
+                            } else {
+                                answerWebView.loadUrl("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';");
+                                answerWebView.loadUrl("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);");
+                            }
 
                             answeredWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';",null);
                             answeredWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
