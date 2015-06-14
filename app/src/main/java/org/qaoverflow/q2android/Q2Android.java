@@ -1201,12 +1201,11 @@ public class Q2Android extends SherlockListActivity {
                                 answeredWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';",null);
                                 answeredWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
                             } else {
-                                answerWebView.loadUrl("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';");
-                                answerWebView.loadUrl("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);");
+                                answeredWebView.loadUrl("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';");
+                                answeredWebView.loadUrl("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);");
                             }
 
-                            answeredWebView.evaluateJavascript("javascript:document.getElementById('math').innerHTML='"+doubleEscapeTeX(responce)+"';",null);
-                            answeredWebView.evaluateJavascript("javascript:MathJax.Hub.Queue(['Typeset',MathJax.Hub]);", null);
+
                         }
                     });
 

@@ -20,14 +20,7 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="0e4072fd48238419f424a112fdeb828d91f69e1a">
-        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/release/classes-2197ba2611ace273a77774d21cd61f801fccaad3.jar" />
-    </item>
-    <item
-        jar="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-74ca8deedabadacb7f18762d0d1848658e340efd.jar" />
+        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/debug/classes-2197ba2611ace273a77774d21cd61f801fccaad3.jar" />
     </item>
     <item
         jar="/home/arjun/Downloads/aptitudeoverflow/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/classes.jar"
@@ -37,39 +30,18 @@
         <dex dex="/home/arjun/Downloads/aptitudeoverflow/app/build/intermediates/pre-dexed/release/classes-6ba0ccc9575dbcd2ee823103850777bb75323479.jar" />
     </item>
     <item
-        jar="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/exploded-aar/com.jeremyfeinstein.slidingmenu/library/1.3/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0e4072fd48238419f424a112fdeb828d91f69e1a">
-        <dex dex="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/pre-dexed/release/classes-f6a44b4168e8adc0af61f1afb6154a425238ebc3.jar" />
-    </item>
-    <item
-        jar="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/pre-dexed/release/classes-0ef4979155b7c77d3add316a550f51bc01b1bf04.jar" />
-    </item>
-    <item
-        jar="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="af64527b748983a75de9c0756e9768b56b240a49">
-        <dex dex="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/pre-dexed/release/classes-44f46a6350c3eac2cf0cdb57b053deca14d367d8.jar" />
-    </item>
-    <item
         jar="/home/arjun/Downloads/qaoverflow/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-e4ccbaa71130fc527ab3657c2e91a6a43576e4ab.jar" />
+        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-e4ccbaa71130fc527ab3657c2e91a6a43576e4ab.jar" />
     </item>
     <item
         jar="/home/arjun/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/arjun/Downloads/q2android-master1/q2android-master1/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-44e44c704e17810312679908101897880668470d.jar" />
+        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-44e44c704e17810312679908101897880668470d.jar" />
     </item>
     <item
         jar="/home/arjun/Downloads/aptitudeoverflow/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
@@ -83,14 +55,14 @@
         jumboMode="false"
         revision="22.0.1"
         sha1="af64527b748983a75de9c0756e9768b56b240a49">
-        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/release/classes-534b921f32637d37b9b850c7e824e229e33e1c72.jar" />
+        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/debug/classes-534b921f32637d37b9b850c7e824e229e33e1c72.jar" />
     </item>
     <item
         jar="/home/arjun/Downloads/qaoverflow/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/release/classes-603f93e9c215f318776c407b5ff9e52dfa6758bc.jar" />
+        <dex dex="/home/arjun/Downloads/qaoverflow/app/build/intermediates/pre-dexed/debug/classes-603f93e9c215f318776c407b5ff9e52dfa6758bc.jar" />
     </item>
 
 </items>
